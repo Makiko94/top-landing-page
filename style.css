@@ -6,7 +6,7 @@
 }
 
 body {
-    display: flexbox;
+    display: flex;
     flex-direction: column;
 }
 
@@ -44,7 +44,8 @@ li {
     padding: 0 8px;
 }
 
-a {
+a,
+.secondary {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
@@ -52,4 +53,41 @@ a {
  
 .title {
     background-color: #1F2937;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
+
+.hero {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.container.signup {
+    display: flex;
+    width: 1000px;
+    flex: none;
+}
+
+.main,
+.image {
+    flex: 1;
+}
+
+.image {
+    display: flex;
+    margin-left: 75px;
+    background-color: grey;
+    height: 225px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
