@@ -95,10 +95,13 @@ a,
 }
 
 button {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
     background-color: #3882F6;
     color: white;
-    width: 100px;
-    padding: 8px 12px;
+    width: 125px;
+    padding: 10px 20px;
     border-radius: 7px;
 }
 
@@ -185,10 +188,43 @@ button {
 }
 
 .container.action {
-    width: 1200px;
+    border-radius: 15px;
     background-color: #3882F6;
     display: flex;
-    margin: 75px;
-
+    margin: 100px;
+    padding: 50px 75px;
+    gap: 150px
 }
+
+.time {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.time,
+.pointer {
+    color: #F9FAF8;
+}
+
+.button > button {
+    border: 2px solid #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Footer style */
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer > p {
+    margin: 50px;
+}
+
+
+
 
